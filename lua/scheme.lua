@@ -1,0 +1,58 @@
+vim.cmd([[
+colorscheme default
+
+hi ColorColumn ctermbg=234
+
+hi LineNr ctermfg=245
+hi LineNrAbove ctermfg=240          " <-- when using :set relativenumber
+hi def link LineNrBelow LineNrAbove " <--'
+
+hi MatchParen cterm=reverse ctermbg=NONE
+
+hi Pmenu ctermfg=15 ctermbg=0
+hi PmenuSel ctermfg=0 ctermbg=68
+hi PmenuSbar ctermbg=240
+
+hi Search ctermfg=NONE ctermbg=NONE cterm=reverse
+
+hi SpecialKey ctermfg=240 " unprintable characters
+
+hi SpellBad ctermbg=52 " used by some plugins to indicate an error
+hi SpellCap ctermbg=58 " used by some plugins to indicate a warning
+
+hi StatusLine cterm=bold ctermfg=15 ctermbg=234
+hi VertSplit ctermbg=234
+hi TabLine cterm=NONE ctermfg=15 ctermbg=0
+hi TabLineFill cterm=NONE ctermbg=234
+
+hi Folded ctermfg=0 ctermbg=233
+
+hi Visual ctermbg=238
+
+hi DiffAdd ctermbg=22
+hi DiffDelete ctermbg=88
+hi DiffChange ctermbg=240
+hi DiffText ctermbg=240
+
+" === Syntax Colors ===
+
+hi Comment ctermfg=103
+hi Constant ctermfg=9
+hi Delimiter ctermfg=180
+hi Error ctermbg=52
+hi Function ctermfg=68
+hi Operator ctermfg=130
+hi PreProc ctermfg=5
+hi Special ctermfg=13
+hi Statement ctermfg=130
+hi Type ctermfg=10
+hi Identifier cterm=NONE ctermfg=15 ctermbg=NONE
+
+hi @property ctermfg=159
+hi @punctuation.special ctermfg=130
+hi @storageclass ctermfg=11
+hi @tag ctermfg=120
+hi @type.qualifier ctermfg=14
+
+hi makeIdent ctermfg=14 " built-in (non-treesitter) highlight group
+]])
