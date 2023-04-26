@@ -47,6 +47,7 @@ hi Special ctermfg=13
 hi Statement ctermfg=130
 hi Type ctermfg=10
 hi Identifier cterm=NONE ctermfg=15 ctermbg=NONE
+hi Label cterm=bold ctermfg=130
 
 hi @property ctermfg=159
 hi @punctuation.special ctermfg=130
