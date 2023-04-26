@@ -48,5 +48,5 @@ vim.cmd([[
 map <F6> :call system('ctags')<CR>
 map <C-\> :lua source_header_switch()<CR>
 map <C-J> $?\v,.@=\|\(.@=<CR>a<CR><ESC>
-map <M-j> :s/$\n\s*/<CR>
+map <M-j> :s/$\n\s*/<CR>``
 ]])
