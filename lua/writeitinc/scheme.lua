@@ -58,5 +58,7 @@ hi @storageclass ctermfg=11
 hi @tag ctermfg=120
 hi @type.qualifier ctermfg=14
 
+hi def link @lsp.type.property @property
+
 hi makeIdent ctermfg=14 " built-in (non-treesitter) highlight group
 ]])
