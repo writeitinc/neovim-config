@@ -1,13 +1,15 @@
 vim.cmd([[
 colorscheme default
 
+" === Editor Colors ===
+
 hi ColorColumn ctermbg=234
 
 hi LineNr ctermfg=245
 hi LineNrAbove ctermfg=240          " <-- when using :set relativenumber
 hi def link LineNrBelow LineNrAbove " <--'
 
-hi MatchParen cterm=reverse ctermbg=NONE
+hi MatchParen cterm=reverse ctermfg=180 ctermbg=NONE
 
 hi Pmenu ctermfg=15 ctermbg=0
 hi PmenuSel ctermfg=0 ctermbg=68
@@ -34,7 +36,7 @@ hi DiffDelete ctermbg=88
 hi DiffChange ctermbg=240
 hi DiffText ctermbg=240
 
-" === Syntax Colors ===
+" === Language Syntax Colors ===
 
 hi Comment ctermfg=103
 hi Constant ctermfg=9
@@ -46,10 +48,11 @@ hi PreProc ctermfg=5
 hi Special ctermfg=13
 hi Statement ctermfg=130
 hi Type ctermfg=10
-hi Identifier cterm=NONE ctermfg=15 ctermbg=NONE
+hi Identifier cterm=NONE ctermfg=195 ctermbg=NONE
 hi Label cterm=bold ctermfg=130
 
 hi @property ctermfg=159
+hi @field ctermfg=159
 hi @punctuation.special ctermfg=130
 hi @storageclass ctermfg=11
 hi @tag ctermfg=120
