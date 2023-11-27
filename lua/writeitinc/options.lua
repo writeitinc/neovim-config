@@ -1,10 +1,14 @@
 --[[ General ]]
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.colorcolumn = { 81, 121 }
+vim.opt.colorcolumn = { 81, 101, 121 }
+
+vim.opt.foldmarker = { '/*', '*/' }
+vim.opt.foldmethod = 'marker'
+vim.opt.foldlevel = 1
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
+vim.opt.signcolumn = 'yes'
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
