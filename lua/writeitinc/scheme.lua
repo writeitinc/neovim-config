@@ -50,6 +50,7 @@ hi Statement ctermfg=130
 hi Type ctermfg=10
 hi Identifier cterm=NONE ctermfg=195 ctermbg=NONE
 hi Label cterm=bold ctermfg=130
+hi Macro ctermfg=162
 
 hi @property ctermfg=159
 hi @field ctermfg=159
