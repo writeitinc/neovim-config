@@ -43,23 +43,27 @@ hi Constant ctermfg=9
 hi Delimiter ctermfg=180
 hi Error ctermbg=52
 hi Function ctermfg=68
+hi Identifier cterm=NONE ctermfg=195 ctermbg=NONE
+hi Ignore ctermfg=NONE ctermbg=233
+hi Label cterm=bold ctermfg=130
 hi Operator ctermfg=130
 hi PreProc ctermfg=5
 hi Special ctermfg=13
 hi Statement ctermfg=130
 hi Type ctermfg=10
-hi Identifier cterm=NONE ctermfg=195 ctermbg=NONE
-hi Label cterm=bold ctermfg=130
 hi Macro ctermfg=162
 
-hi @property ctermfg=159
+hi @attribute ctermfg=6
 hi @field ctermfg=159
+hi @property ctermfg=159
 hi @punctuation.special ctermfg=130
 hi @storageclass ctermfg=11
 hi @tag ctermfg=120
 hi @type.qualifier ctermfg=14
 
 hi def link @lsp.type.property @property
+hi def link @lsp.typemod.variable.readonly Constant
+hi def link @lsp.type.comment.c Ignore
 
 hi makeIdent ctermfg=14 " built-in (non-treesitter) highlight group
 ]])
