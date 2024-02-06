@@ -57,9 +57,13 @@ hi @attribute ctermfg=6
 hi @field ctermfg=159
 hi @property ctermfg=159
 hi @punctuation.special ctermfg=130
-hi @storageclass ctermfg=11
+hi @keyword.storage ctermfg=11
 hi @tag ctermfg=120
 hi @type.qualifier ctermfg=14
+
+hi def link @keyword.directive.c PreProc
+hi def link @keyword.directive.define.c PreProc
+hi def link @keyword.import.c PreProc
 
 hi def link @lsp.type.property @property
 hi def link @lsp.typemod.variable.readonly Constant
