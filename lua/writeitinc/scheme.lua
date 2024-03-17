@@ -65,6 +65,8 @@ hi def link @keyword.directive.c PreProc
 hi def link @keyword.directive.define.c PreProc
 hi def link @keyword.import.c PreProc
 
+hi def link @comment.todo Todo
+
 hi def link @lsp.type.property @property
 hi def link @lsp.typemod.variable.readonly Constant
 hi def link @lsp.type.comment.c Ignore
