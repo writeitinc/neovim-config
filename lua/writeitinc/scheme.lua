@@ -9,10 +9,10 @@ hi LineNr ctermfg=245
 hi LineNrAbove ctermfg=240          " <-- when using :set relativenumber
 hi def link LineNrBelow LineNrAbove " <--'
 
-hi MatchParen cterm=reverse ctermfg=180 ctermbg=NONE
+hi MatchParen ctermfg=180 ctermbg=238
 
-hi Pmenu ctermfg=15 ctermbg=0
-hi PmenuSel ctermfg=0 ctermbg=68
+hi Pmenu ctermfg=15 ctermbg=236
+hi PmenuSel ctermfg=236 ctermbg=68
 hi PmenuSbar ctermbg=240
 
 hi Search ctermfg=NONE ctermbg=NONE cterm=reverse
@@ -24,10 +24,10 @@ hi SpellCap ctermbg=58 " used by some plugins to indicate a warning
 
 hi StatusLine cterm=bold ctermfg=15 ctermbg=234
 hi VertSplit ctermbg=234
-hi TabLine cterm=NONE ctermfg=15 ctermbg=0
+hi TabLine cterm=NONE ctermfg=15 ctermbg=236
 hi TabLineFill cterm=NONE ctermbg=234
 
-hi Folded ctermfg=0 ctermbg=233
+hi Folded ctermfg=236 ctermbg=233
 
 hi Visual ctermbg=238
 
